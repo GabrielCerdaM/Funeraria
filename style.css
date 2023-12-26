@@ -38,13 +38,14 @@ button {
 
 .plans div:first-child{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .plans {
     padding: 1.5rem 0 0 0;
 }
+
 .plans button {
     margin: .3rem;
 }
