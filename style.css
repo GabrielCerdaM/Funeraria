@@ -1,3 +1,9 @@
+:root {
+    --color-primary: #2C7336;
+    --color-secundary: #0DF205;
+    --color-tertiary: #BF3604;
+}
+
 body {
     padding: 0 1.5rem;
 }
@@ -7,7 +13,6 @@ img {
 }
 
 h1 {
-    color: #707070;
     text-align: center;
 }
 
@@ -20,19 +25,15 @@ header, footer {
 .header-contact {
     display: flex;
     gap: 15px;
-    padding: 1rem;
-}
-
-.header-contact button {
-    width: 5rem;
+    padding: 1rem 0;
 }
 
 button {
     border-radius: 0.7rem ;
     width: 8rem;
     height: 3rem;
-    background-color: #BC410D;
-    color: #FFFFFF;
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
 }
 
 .plans div:first-child{
@@ -50,22 +51,29 @@ button {
 
 p {
     text-align: center;
-    color: #FA3B2E;
+    color: black;
 }
 
 a {
-    color: #FA4135;
+    color: #707070;
 }
 
 .item {
     display: flex;
+    padding-top: 3rem;
     gap: 2rem;
+}
+
+.item .detail_item h3,h4{
+    text-align: start;
+    margin: 0rem;
 }
 
 .item .detail_item {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .item .detail_item h3,p {
@@ -75,5 +83,5 @@ a {
 .cars {
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
 }
