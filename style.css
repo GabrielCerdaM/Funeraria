@@ -7,6 +7,7 @@ img {
 }
 
 h1 {
+    color: #707070;
     text-align: center;
 }
 
@@ -27,8 +28,11 @@ header, footer {
 }
 
 button {
+    border-radius: 0.7rem ;
     width: 8rem;
     height: 3rem;
+    background-color: #BC410D;
+    color: #FFFFFF;
 }
 
 .plans div:first-child{
@@ -37,12 +41,20 @@ button {
     align-items: center;
 }
 
+.plans {
+    padding: 1.5rem 0 0 0;
+}
 .plans button {
     margin: .3rem;
 }
 
 p {
     text-align: center;
+    color: #FA3B2E;
+}
+
+a {
+    color: #FA4135;
 }
 
 .item {
