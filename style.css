@@ -1,0 +1,67 @@
+body {
+    padding: 0 1.5rem;
+}
+
+img {
+    align-items: end;
+}
+
+h1 {
+    text-align: center;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-contact {
+    display: flex;
+    gap: 15px;
+    padding: 1rem;
+}
+
+.header-contact button {
+    width: 5rem;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+}
+
+.plans div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans button {
+    margin: .3rem;
+}
+
+p {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    gap: 2rem;
+}
+
+.item .detail_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item .detail_item h3,p {
+    text-align: start;
+}
+
+.cars {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
